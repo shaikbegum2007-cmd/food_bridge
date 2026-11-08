@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+backend/.venv/
+backend/foodbridge.db
+foodbridge.db
