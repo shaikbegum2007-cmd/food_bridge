@@ -1,32 +1,23 @@
 {
-  "name": "@babel/code-frame",
-  "version": "7.29.7",
-  "description": "Generate errors that contain a code frame that point to source locations.",
-  "author": "The Babel Team (https://babel.dev/team)",
-  "homepage": "https://babel.dev/docs/en/next/babel-code-frame",
-  "bugs": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen",
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
+  "name": "foodbridge",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/babel/babel.git",
-    "directory": "packages/babel-code-frame"
-  },
-  "main": "./lib/index.js",
   "dependencies": {
-    "@babel/helper-validator-identifier": "^7.29.7",
-    "js-tokens": "^4.0.0",
-    "picocolors": "^1.1.1"
+    "axios": "^1.7.9",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.1.1",
+    "recharts": "^2.15.0"
   },
   "devDependencies": {
-    "charcodes": "^0.2.0",
-    "import-meta-resolve": "^4.1.0",
-    "strip-ansi": "^4.0.0"
-  },
-  "engines": {
-    "node": ">=6.9.0"
-  },
-  "type": "commonjs"
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.7"
+  }
 }
